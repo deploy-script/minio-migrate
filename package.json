@@ -1,0 +1,14 @@
+{
+  "name": "minio-migrate",
+  "version": "1.0.0",
+  "description": "Using MinIO JavaScript client library, migrate all buckets and files from one server to another.",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "node --no-warnings ./src/index.js"
+  },
+  "author": "Lawrence Cherone <lawrence@cherone.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "minio": "^7.0.18"
+  }
+}
