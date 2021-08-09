@@ -79,7 +79,7 @@ async function stream(bucket = '', prefix = '') {
 
         let buckets = []
         if (typeof config.buckets !== 'undefined' && Array.isArray(config.buckets) && config.buckets.length) {
-            buckets = config.bucket
+            buckets = config.buckets
         } else {
             buckets = await listBuckets('from')
         }
